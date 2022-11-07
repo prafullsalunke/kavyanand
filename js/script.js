@@ -17,7 +17,7 @@ var logo_scale = 100; // Logo sale factor (in percents)
 var logo_x = 0; // Logo correction factor for X-position (in pixels);
 var logo_y = 0; // Logo correction factor for Y-position (in pixels);
 var logo_url_enable = true; // Make logo clickable (true, false)  
-var logo_url = "http://themeforest.net/user/Kontramax?ref=Kontramax"; // Specify URL when clicking on logo
+var logo_url = "https://www.facebook.com/KarmaveerVidyalayaWarora"; // Specify URL when clicking on logo
 var logo_url_target = "_self"; // Targeting (_blank, _self, _parent, _top)
 var flickering = true; // Flickering (true, false)
 var animated_scratches = true; // Animated scratches dust (true, false)
@@ -273,6 +273,6 @@ function draw_pattern() {
 // jQuery Countdown styles 1.6.1. - plugin by Keith Wood
 function counter_start() {
 	var austDay = new Date();
-	austDay = new Date(austDay.getFullYear() + 1, 3 - 1, 6); // Examples: (austDay.getFullYear() + 1, 3 - 1, 6) or (2013, 3 - 1, 6)
+	austDay = new Date(austDay.getFullYear(), 11, 6); ; // Examples: (austDay.getFullYear() + 1, 3 - 1, 6) or (2013, 3 - 1, 6)
 	$("#defaultCountdown").countdown({until: austDay, format: 'DHMS'});
 }
