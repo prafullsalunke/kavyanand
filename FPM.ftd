@@ -1,0 +1,12 @@
+-- import: fpm
+
+-- fpm.package: kavyanand.com
+zip: github.com/prafullsalunke/kavyanand/archive/refs/heads/main.zip
+download-base-url: https://raw.githubusercontent.com/prafullsalunke/kavyanand/main
+
+
+-- fpm.dependency: fifthtry.github.io/doc-site as ds
+
+-- fpm.auto-import: ds
+-- fpm.auto-import: kavyanand.com/assets
+-- fpm.auto-import: kavyanand.com/FPM/config
