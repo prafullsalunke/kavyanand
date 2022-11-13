@@ -2,6 +2,7 @@
 -- import: ds
 -- import: cs
 -- import: fifthtry.github.io/arya-font/assets as arya-assets
+-- import: kavyanand.com/assets
 
 -- fpm.font-copy: $arya-assets.fonts.Arya
 
@@ -11,10 +12,9 @@
 
 
 -- ds.site-logo:
-dark: $assets.files.images.logo.svg.dark
-light: $assets.files.images.logo.svg.light
+light: $assets.files.images.logo-k-dark.svg.light
+dark: $assets.files.images.logo-k-dark.svg.dark
 
 
--- ds.site-name:
 
-;-- ds.site-name: Hon. S.D. Salunke's - काव्यानंद
+-- ds.site-name: | ~ काव्यानंद
