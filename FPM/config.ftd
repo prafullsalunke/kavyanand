@@ -1,7 +1,20 @@
 -- import: fpm
 -- import: ds
+-- import: cs
+-- import: fifthtry.github.io/arya-font/assets as arya-assets
 
--- ds.site-name: Hon. S.D. Salunke's - Kavyanand
+-- fpm.font-copy: $arya-assets.fonts.Arya
+
+-- fpm.font-display: $arya-assets.fonts.Arya
+
+-- fpm.font-code: $arya-assets.fonts.Arya
+
+-- ds.site-name: Hon. S.D. Salunke's - काव्यानंद
+
+-- ds.site-logo:
+dark: $assets.files.images.logo.png.dark
+light: $assets.files.images.logo.png.light
+
 
 
 

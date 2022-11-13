@@ -6,7 +6,25 @@ download-base-url: https://raw.githubusercontent.com/prafullsalunke/kavyanand/ma
 
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/arya-font
+-- fpm.dependency: fifthtry.github.io/color-doc as cs
 
 -- fpm.auto-import: ds
+-- fpm.auto-import: cs
 -- fpm.auto-import: kavyanand.com/assets
 -- fpm.auto-import: kavyanand.com/FPM/config
+-- fpm.auto-import: fpm
+
+
+
+-- fpm.sitemap:
+
+
+# Home: /
+
+# Videos: y/
+
+- `ओझे` - मनाचेच झाले मनावर ओझे: y/
+- `कशाला?` स्वर ~ शि. ध. साळुंके: y/kashala/
+- `अफसाना` स्वर ~ सौ. रेणुकाताई तिरमले: y/afsana/
+- `खैरियत` स्वर ~ सौ. रेणुकाताई तिरमले: y/khairiyat/
